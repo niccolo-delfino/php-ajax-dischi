@@ -31,16 +31,17 @@ header {
   padding: 100px 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 .all-cd .cd {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   width: 200px;
   padding: 25px;
+  margin: 10px 20px;
+  background: #2e3a46;
 }
 .all-cd .cd .cover {
   width: 100%;
@@ -49,5 +50,12 @@ header {
   width: 100%;
 }
 .all-cd .cd h3 {
+  padding: 15px 0px;
   text-align: center;
+  color: white;
+}
+.all-cd .cd span {
+  padding-top: 5px;
+  font-weight: bold;
+  color: grey;
 }

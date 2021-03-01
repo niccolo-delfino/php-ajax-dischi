@@ -5,6 +5,8 @@
     @include flexCol;
     width: 200px;
     padding: 25px;
+    margin: 10px 20px;
+    background: $headerCol;
     .cover{
       width: 100%;
        img{
@@ -12,7 +14,14 @@
       }
     }
     h3{
+      padding: 15px 0px;
       text-align: center;
+      color: white;
+    }
+    span{
+      padding-top: 5px;
+      font-weight: bold;
+      color: grey;
     }
   }
 }
