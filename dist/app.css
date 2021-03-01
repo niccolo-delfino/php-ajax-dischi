@@ -29,4 +29,25 @@ header {
 
 .all-cd {
   padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.all-cd .cd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  padding: 25px;
+}
+.all-cd .cd .cover {
+  width: 100%;
+}
+.all-cd .cd .cover img {
+  width: 100%;
+}
+.all-cd .cd h3 {
+  text-align: center;
 }

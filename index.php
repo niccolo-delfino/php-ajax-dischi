@@ -21,11 +21,18 @@ include 'db.php'
   <main>
     <div class="container">
       <div class="all-cd">
+        <?php foreach ($discs as $obj) { ?>
         <div class="cd">
-          <div class="cover">
-            <img src="" alt="">
-          </div>
+            <div class="cover">
+              <img src="<?php echo $obj['poster']?>" alt="<?php echo $obj['title']?>">
+            </div>
+            <h3><?php echo $obj['title']?></h3>
+            <span><?php echo $obj['author']?></span>
+            <span><?php echo $obj['genre']?></span>
+            <span><?php echo $obj['year']?></span>
+
         </div>
+      <?php }?>
       </div>
 
     </div>
