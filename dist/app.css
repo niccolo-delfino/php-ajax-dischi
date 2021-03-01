@@ -5,13 +5,28 @@
 }
 
 body {
+  background: #1E2D3B;
+  min-height: 100vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-ul {
+body ul {
   list-style: none;
 }
-
-a {
+body a {
   text-decoration: none;
+}
+body .container {
+  width: 1070px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: #2e3a46;
+}
+
+.all-cd {
+  padding: 100px 0;
 }

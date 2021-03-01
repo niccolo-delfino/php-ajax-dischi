@@ -2,12 +2,10 @@
   display: flex;
 }
 
-@mixin flexEnd{
-  display: flex;
-  justify-content: flex-end;
-}
 
 @mixin flexCenter{
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
