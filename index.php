@@ -10,7 +10,7 @@ include 'db.php'
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="dist/app.css">
-  <title>Painter</title>
+  <title>Dischi</title>
 </head>
 <body>
 
