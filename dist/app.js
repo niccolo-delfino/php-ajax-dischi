@@ -10,7 +10,9 @@
 var app = new Vue({
   el: "#app",
   data: {
-    albums: []
+    albums: [],
+    generi: ['All'],
+    selection: 'All'
   },
   mounted: function mounted() {
     var _this = this;
@@ -18,6 +20,12 @@ var app = new Vue({
     axios.get('server.php').then(function (response) {
       _this.albums = response.data;
       console.log(_this.albums);
+
+      _this.albums.forEach(function (item, i) {
+        if (!_this.generi.includes(item.genre)) {
+          _this.generi.push(item.genre);
+        }
+      });
     });
   },
   methods: {}
